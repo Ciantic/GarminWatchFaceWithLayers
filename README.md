@@ -12,6 +12,10 @@ In above you see that OnUpdate gets called 62 times, once per second, yet it tak
 
 You can also verify it's bad by just adding more static text. Which seems to make the on average time worse, even though it should be buffered if layout engine is well done.
 
+## What the example looks like in emulator
+
+![Example screenshot in emulator](./watch-face.jpg)
+
 ## Test
 
 1. Get Garmin SDK with [Garmin SDK Manager](https://developer.garmin.com/connect-iq/sdk/)
