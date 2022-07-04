@@ -8,7 +8,7 @@ Here is one 62 second of profiling:
 
 ![Profiling 62 seconds](./profiling-62seconds.png)
 
-In above you see that OnUpdate gets called 62 times, once per second, yet it takes 10ms on average. Updating just the second should not take 10ms, it should be in 2ms range.
+In above you see that OnUpdate gets called 62 times, once per second, yet it takes 10ms on average. Updating just the second should not take 10ms, it should be around 2ms.
 
 You can also verify it's bad by just adding more static text. Which seems to make the on average time worse, even though it should be buffered if layout engine is well done.
 
