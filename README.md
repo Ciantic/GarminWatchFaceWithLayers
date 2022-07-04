@@ -8,19 +8,19 @@ Here is one 62 second of profiling:
 
 ![Profiling 62 seconds](./profiling-62seconds.png)
 
-In above you see that OnUpdate gets called 62 times, once per second, yet it takes 10ms on average. Updating just the second should not take 10ms, it should be around 2ms.
+In above you see that OnUpdate gets called 62 times, once per second, yet it takes 29ms on average. Updating just the second should not take that long, it should be constant redraw of buffer for background and then text update.
 
-You can also verify it's bad by just adding more static text. Which seems to make the on average time worse, even though it should be buffered if layout engine is well done.
+You can also verify it's bad by just adding more static text like in background. Which seems to make the on average time worse linearly, even though it should be buffered if layout engine is well done.
 
 ## What the example looks like in emulator
 
-![Example screenshot in emulator](./watch-face.jpg)
+<img src="./watch-face.jpg" height="300" alt="Example screenshot" />
 
 ## Test
 
 1. Get Garmin SDK with [Garmin SDK Manager](https://developer.garmin.com/connect-iq/sdk/)
 2. Open the project in VSCode, install recommended extensions.
-3. Click on the VSCode's Start Debugging (in Launch), or F5
+3. Click on the VSCode's Start Debugging (in Launch), or F5. Or if you want optimized build using Ctrl+Shift+P and search for "Build and Run Optimized project..."
 
 ## License
 

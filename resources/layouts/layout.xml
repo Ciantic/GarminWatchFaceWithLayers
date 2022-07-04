@@ -3,9 +3,20 @@
         https://developer.garmin.com/connect-iq/core-topics/layouts/ 
     -->
 
-    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="0" font="Graphics.FONT_SYSTEM_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="20" font="Graphics.FONT_SYSTEM_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="40" font="Graphics.FONT_SYSTEM_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="-20" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="0" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="20" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="40" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="60" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="80" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="100" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="120" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="140" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="160" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="180" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="200" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="220" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label text="WHAT THE HELL HOW LONG IT TAKES" x="center" y="240" font="Graphics.FONT_SYSTEM_LARGE" color="Graphics.COLOR_DK_GREEN" justification="Graphics.TEXT_JUSTIFY_CENTER" />
     <label id="TimeLabel" x="center" y="center" font="Graphics.FONT_SYSTEM_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" />
     <label id="SecsLabel" x="center" y="180" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 
