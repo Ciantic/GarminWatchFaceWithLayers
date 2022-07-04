@@ -4,7 +4,7 @@ In short, it's no good. This example renders text, same text, over and over, and
 
 In other words, the Layout engine in Garmin can't seem to buffer the text graphics and update only changes. What is the point of layout engine?
 
-Here is one 62 second of profiling:
+Here is 62 second of profiling (SDK and emulator 4.1.0):
 
 ![Profiling 62 seconds](./profiling-62seconds.png)
 
